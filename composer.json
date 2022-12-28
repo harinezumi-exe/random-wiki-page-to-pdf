@@ -1,0 +1,13 @@
+{
+    "name": "ajaroszynska/mpdf-example",
+    "type": "library",
+    "require": {
+        "mpdf/mpdf": "^6.1",
+        "tecnickcom/tcpdf": "^6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mpdf\\Mpdf\\": "src/"
+        }
+    }
+}
